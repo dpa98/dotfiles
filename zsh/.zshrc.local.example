@@ -1,0 +1,7 @@
+# Copiar a ~/.zshrc.local (ignorado por git).
+# Aquí va TODO lo específico de esta máquina: tokens, proxies, rutas de trabajo, etc.
+#
+# export GOOGLE_API_KEY="TU_CLAVE_AQUI"
+# export HTTPS_PROXY="http://..."
+# export PATH="$HOME/.local/bin:$PATH"
+# alias trabajo='cd ~/work/project'

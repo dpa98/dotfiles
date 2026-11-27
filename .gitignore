@@ -1,0 +1,13 @@
+# Configuración por máquina / secretos
+*.local
+.env
+.env.*
+!.env.example
+
+# Backups que genera install.sh
+*.bak
+*.bak.*
+
+# Sistema
+.DS_Store
+*.swp

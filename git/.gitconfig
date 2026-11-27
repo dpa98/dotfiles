@@ -1,0 +1,18 @@
+# Configuración pública: esta es la única parte que se sube al repo.
+# Lo privado va en la config local de cada máquina:
+#   git config --local user.name "Tu nombre"
+#   git config --local user.email "tu@email.com"
+#   git config --local credential.helper '!gh auth git-credential'
+[core]
+    editor = nvim
+    excludesfile = ~/.gitignore_global
+[pull]
+    rebase = true
+[init]
+    defaultBranch = main
+[alias]
+    st = status -sb
+    co = checkout
+    lg = log --oneline --graph --decorate --all
+    ds = diff --staged
+    undo = reset --soft HEAD~1

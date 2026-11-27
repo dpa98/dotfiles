@@ -1,0 +1,21 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Entornos y secretos
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Datos y artefactos grandes (en DS casi nunca deben versionarse)
+data/raw/
+*.pkl
+*.joblib
+*.csv.zip
+
+# Editores / OS
+.DS_Store
+*.swp
